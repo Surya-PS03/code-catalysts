@@ -79,6 +79,7 @@ Hackathon_Dataset/
 └── yolov8s.pt
 
 
+
 ### 7. Train the Model
 bash
 # Run training with the downloaded dataset
