@@ -65,6 +65,8 @@ pip install ultralytics torch torchvision opencv-python matplotlib seaborn panda
 
 
 **Expected Dataset Structure After Download:**
+
+```
 Hackathon_Dataset/
 ├── train/
 │   ├── images/
@@ -77,6 +79,8 @@ Hackathon_Dataset/
 │   └── labels/
 ├── yolo_params.yaml
 └── yolov8s.pt
+```
+
 
 
 
