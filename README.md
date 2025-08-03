@@ -45,7 +45,6 @@ conda activate edu
 bash
 # Clone the repository
 git clone https://github.com/Surya-PS03/code-catalysts
-cd enhanced-yolo-detection
 
 
 ### 4. Run Environment Setup (Windows)
@@ -62,11 +61,7 @@ pip install ultralytics torch torchvision opencv-python matplotlib seaborn panda
 
 ### 6. Download Dataset
 
-The dataset will be automatically downloaded from the Google Cloud Storage:
-
-bash
-# Dataset URL: https://storage.googleapis.com/duality-public-share/Datasets/Hackathon_Dataset.zip
-# The training script will handle the download and extraction
+# Dataset URL: https://storage.googleapis.com/duality-public-share/Datasets/Hackathon_Dataset.zi
 
 
 **Expected Dataset Structure After Download:**
@@ -126,7 +121,7 @@ python predict.py
 
 ## 📊 Expected Results
 
-After successful training, you should see:
+After successful training & prediction, you should see:
 
 Class         Images  Instances   Box(P)     R      mAP50   mAP50-95
 all           400     560         0.892     0.791   0.855   0.609
@@ -302,30 +297,11 @@ python predict.py
 
 ## 📝 Dataset Information
 
-- **Source**: Google Cloud Storage
 - **URL**: https://storage.googleapis.com/duality-public-share/Datasets/Hackathon_Dataset.zip
 - **Classes**: FireExtinguisher, ToolBox, OxygenTank
 - **Format**: YOLO format with bounding box annotations
 - **Size**: ~500MB compressed
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (git checkout -b feature/enhancement)
-3. Commit changes (git commit -am 'Add enhancement')
-4. Push to branch (git push origin feature/enhancement)
-5. Create Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙋‍♂️ Support
-
-For questions or issues:
-- Open an issue on GitHub
-- Check the [Ultralytics Documentation](https://docs.ultralytics.com/)
-- Review YOLO community forums
 
 ---
 
