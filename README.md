@@ -61,7 +61,7 @@ pip install ultralytics torch torchvision opencv-python matplotlib seaborn panda
 
 ### 6. Download Dataset
 
-# Dataset URL: https://storage.googleapis.com/duality-public-share/Datasets/Hackathon_Dataset.zi
+# Dataset URL: https://storage.googleapis.com/duality-public-share/Datasets/Hackathon_Dataset.zip
 
 
 **Expected Dataset Structure After Download:**
