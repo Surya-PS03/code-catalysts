@@ -119,15 +119,22 @@ python predict.py
 | scale | 0.9 | Scale variation range |
 | fliplr | 0.5 | Horizontal flip probability |
 
+
+---
+
 ## 📊 Expected Results
 
 After successful training & prediction, you should see:
 
-Class         Images  Instances   Box(P)     R      mAP50   mAP50-95
-all           400     560         0.892     0.791   0.855   0.609
-FireExtinguisher 183  183         0.85      0.825   0.865   0.608
-ToolBox       193     193         0.916     0.788   0.872   0.675
-OxygenTank    184     184         0.912     0.761   0.829   0.545
+| Class            | Images | Instances | Box(P) | R     | mAP50 | mAP50-95 |
+| ---------------- | ------ | --------- | ------ | ----- | ----- | -------- |
+| all              | 400    | 560       | 0.892  | 0.791 | 0.855 | 0.609    |
+| FireExtinguisher | 183    | 183       | 0.850  | 0.825 | 0.865 | 0.608    |
+| ToolBox          | 193    | 193       | 0.916  | 0.788 | 0.872 | 0.675    |
+| OxygenTank       | 184    | 184       | 0.912  | 0.761 | 0.829 | 0.545    |
+
+---
+
 
 Speed: 0.4ms preprocess, 6.6ms inference, 0.0ms loss, 3.4ms postprocess per image
 
